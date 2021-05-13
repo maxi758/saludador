@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Te saluda</title>
+</head>
+<body>
+    <h1>Saludo Personalizado</h1>
+    <div id="container">
+        <form id="formu" action="/saludar" method="post">
+            <div class="div-style">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="input-nombre">
+            </div>
+            <div class="div-style">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="input-apellido">
+            </div>
+            <div class="div-style">
+                <label for="apodo">Apodo</label>
+                <input type="text" name="apodo" id="input-apodo">
+            </div>
+            <input type="submit" id="btn" value="Ingresar">
+        </form>
+    </div>
+</body>
+</html>

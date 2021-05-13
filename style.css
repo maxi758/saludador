@@ -1,0 +1,53 @@
+h1{
+    color: rgb(212, 190, 60);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: seagreen;
+}
+body div{
+    display: block;
+}
+.div-style{
+    display: flex;
+    margin-top: 25px;
+    text-align: center;
+    font-size: large;
+}
+.div-style input{
+    position:absolute;
+    margin-left: 70px;
+    width: 100px;
+}
+#btn{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 30px;
+    height: 2em;
+    width: 5em;
+    font-size: large;
+}
+#btn:hover{
+    color: goldenrod;
+}
+#btn:focus{
+    color: goldenrod;
+}
+form{
+    background-color:palegreen;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+   
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
